@@ -1,0 +1,25 @@
+Прописываем в консоли свои данные и настройки переносов строк:
+git config --global user.name "ваше имя"
+git config --global user.email "ваша почта"
+Кроме того, для пользователей Unix / Mac:
+
+git config - global core.autocrlf input
+git config --global core.safecrlf true
+
+Для пользователей Windows:
+
+git config --global core.autocrlf true
+git config --global core.safecrlf true
+
+Создать страницу и каталог(папку)
+mkdir "Название каталога(Напирмер: CSS)"; cd "Название каталога"; touch "Название файла"
+
+Залить на GitHub 
+git remote add origin https://github.com/a5a5a5/-tutorial.git (Изменяется "a5a5a5/-tutorial.git")
+git push -u origin master
+
+Один из методов скачивания/клонирования репозитория
+git clone "URL адрес"
+
+
+
