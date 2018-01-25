@@ -1,0 +1,19 @@
+body{
+    background-color: green;
+    margin: 0 auto;
+    width: 750px;
+}
+
+h1{
+    color: blue;
+}
+
+p{
+    color: blueviolet;
+    size: 16px;
+}
+
+div p{
+    color: aqua;
+    size: 35px;
+}
