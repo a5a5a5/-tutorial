@@ -1,6 +1,8 @@
 Прописываем в консоли свои данные и настройки переносов строк:
 git config --global user.name "ваше имя"
 git config --global user.email "ваша почта"
+git config --global push.default matching
+
 Кроме того, для пользователей Unix / Mac:
 
 git config - global core.autocrlf input
@@ -33,6 +35,9 @@ git log
 git log --pretty=format:"%h - %an, %ar : %s" (Краткая информация-кто, время, коммунтарий)
 git log --since=2.weeks (Информация за 2 недели)
 git log -p -2 (показать информацию по 2 коммитам)
+
+Работа на примере двух веток со слиянием в единую:
+Сначала клонируем себе на ПК, затем изменяем, пушим на github, затем качаем на ПК и pull. все готово.
 
 Некотороые команды Git:
 add — добавить файл или папку в репозиторий git;
